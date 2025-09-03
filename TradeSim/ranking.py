@@ -380,7 +380,7 @@ def main():
    
 
     while True:
-        mongo_client = MongoClient(MONGO_URL, tlsCAFile=ca)
+        mongo_client = MongoClient(MONGO_URL, tlsAllowInvalidCertificates=True)
         market_status = mongo_client.market_data.market_status.find_one({})["market_status"]
         if not market_status:
             logger.error("Market status not found in database.")
