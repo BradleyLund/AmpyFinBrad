@@ -1,0 +1,178 @@
+2025-09-02 22:23:20 +0100 - INFO - __main__ - <module> - getting ndaq tickers from wikipedia...
+2025-09-02 22:23:21 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Checking tickers exist in dbs\databases\price_data.db
+2025-09-02 22:23:21 +0100 - ERROR - __main__ - compute_and_store_strategy_decisions - error checking if tickers exist in dbs\databases\price_data.db. unable to open database file
+2025-09-02 22:23:21 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: AAPL (1/85).len(strategies)=133
+2025-09-02 22:23:21 +0100 - ERROR - __main__ - <module> - An error occurred: 'AAPL'
+2025-09-02 22:23:41 +0100 - INFO - __main__ - <module> - getting ndaq tickers from wikipedia...
+2025-09-02 22:23:41 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Checking tickers exist in C:\Users\bradj\Documents\Web Development\Trading\ampyfin\dbs\databases\price_data.db
+2025-09-02 22:23:41 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: AAPL (1/85).len(strategies)=133
+2025-09-02 22:23:42 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for AAPL saved to database.
+2025-09-02 22:23:42 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: MSFT (2/85).len(strategies)=133
+2025-09-02 22:23:42 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for MSFT saved to database.
+2025-09-02 22:23:42 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: GOOGL (3/85).len(strategies)=133
+2025-09-02 22:23:43 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for GOOGL saved to database.
+2025-09-02 22:23:43 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: GOOG (4/85).len(strategies)=133
+2025-09-02 22:23:43 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for GOOG saved to database.
+2025-09-02 22:23:43 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: AMZN (5/85).len(strategies)=133
+2025-09-02 22:23:43 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for AMZN saved to database.
+2025-09-02 22:23:43 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: NVDA (6/85).len(strategies)=133
+2025-09-02 22:23:44 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for NVDA saved to database.
+2025-09-02 22:23:44 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: META (7/85).len(strategies)=133
+2025-09-02 22:23:44 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for META saved to database.
+2025-09-02 22:23:44 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: TSLA (8/85).len(strategies)=133
+2025-09-02 22:23:44 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for TSLA saved to database.
+2025-09-02 22:23:44 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: NFLX (9/85).len(strategies)=133
+2025-09-02 22:23:44 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for NFLX saved to database.
+2025-09-02 22:23:44 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: ADBE (10/85).len(strategies)=133
+2025-09-02 22:23:45 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for ADBE saved to database.
+2025-09-02 22:23:45 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: CRM (11/85).len(strategies)=133
+2025-09-02 22:23:45 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for CRM saved to database.
+2025-09-02 22:23:45 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: PEP (12/85).len(strategies)=133
+2025-09-02 22:23:46 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for PEP saved to database.
+2025-09-02 22:23:46 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: COST (13/85).len(strategies)=133
+2025-09-02 22:23:46 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for COST saved to database.
+2025-09-02 22:23:46 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: AVGO (14/85).len(strategies)=133
+2025-09-02 22:23:46 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for AVGO saved to database.
+2025-09-02 22:23:46 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: CSCO (15/85).len(strategies)=133
+2025-09-02 22:23:47 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for CSCO saved to database.
+2025-09-02 22:23:47 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: TMUS (16/85).len(strategies)=133
+2025-09-02 22:23:47 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for TMUS saved to database.
+2025-09-02 22:23:47 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: INTC (17/85).len(strategies)=133
+2025-09-02 22:23:48 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for INTC saved to database.
+2025-09-02 22:23:48 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: AMD (18/85).len(strategies)=133
+2025-09-02 22:23:48 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for AMD saved to database.
+2025-09-02 22:23:48 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: QCOM (19/85).len(strategies)=133
+2025-09-02 22:23:48 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for QCOM saved to database.
+2025-09-02 22:23:48 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: INTU (20/85).len(strategies)=133
+2025-09-02 22:23:49 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for INTU saved to database.
+2025-09-02 22:23:49 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: HON (21/85).len(strategies)=133
+2025-09-02 22:23:49 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for HON saved to database.
+2025-09-02 22:23:49 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: ISRG (22/85).len(strategies)=133
+2025-09-02 22:23:50 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for ISRG saved to database.
+2025-09-02 22:23:50 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: GILD (23/85).len(strategies)=133
+2025-09-02 22:23:50 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for GILD saved to database.
+2025-09-02 22:23:50 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: MDLZ (24/85).len(strategies)=133
+2025-09-02 22:23:50 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for MDLZ saved to database.
+2025-09-02 22:23:50 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: ADP (25/85).len(strategies)=133
+2025-09-02 22:23:51 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for ADP saved to database.
+2025-09-02 22:23:51 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: PYPL (26/85).len(strategies)=133
+2025-09-02 22:23:51 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for PYPL saved to database.
+2025-09-02 22:23:51 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: REGN (27/85).len(strategies)=133
+2025-09-02 22:23:51 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for REGN saved to database.
+2025-09-02 22:23:51 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: VRTX (28/85).len(strategies)=133
+2025-09-02 22:23:52 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for VRTX saved to database.
+2025-09-02 22:23:52 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: ABNB (29/85).len(strategies)=133
+2025-09-02 22:23:52 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for ABNB saved to database.
+2025-09-02 22:23:52 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: KLAC (30/85).len(strategies)=133
+2025-09-02 22:23:52 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for KLAC saved to database.
+2025-09-02 22:23:52 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: SNPS (31/85).len(strategies)=133
+2025-09-02 22:23:53 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for SNPS saved to database.
+2025-09-02 22:23:53 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: PANW (32/85).len(strategies)=133
+2025-09-02 22:23:53 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for PANW saved to database.
+2025-09-02 22:23:53 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: CDNS (33/85).len(strategies)=133
+2025-09-02 22:23:53 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for CDNS saved to database.
+2025-09-02 22:23:53 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: MU (34/85).len(strategies)=133
+2025-09-02 22:23:54 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for MU saved to database.
+2025-09-02 22:23:54 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: ORLY (35/85).len(strategies)=133
+2025-09-02 22:23:54 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for ORLY saved to database.
+2025-09-02 22:23:54 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: MNST (36/85).len(strategies)=133
+2025-09-02 22:23:55 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for MNST saved to database.
+2025-09-02 22:23:55 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: KDP (37/85).len(strategies)=133
+2025-09-02 22:23:55 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for KDP saved to database.
+2025-09-02 22:23:55 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: LRCX (38/85).len(strategies)=133
+2025-09-02 22:23:55 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for LRCX saved to database.
+2025-09-02 22:23:55 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: ASML (39/85).len(strategies)=133
+2025-09-02 22:23:56 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for ASML saved to database.
+2025-09-02 22:23:56 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: CHTR (40/85).len(strategies)=133
+2025-09-02 22:23:56 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for CHTR saved to database.
+2025-09-02 22:23:56 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: MAR (41/85).len(strategies)=133
+2025-09-02 22:23:56 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for MAR saved to database.
+2025-09-02 22:23:56 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: MELI (42/85).len(strategies)=133
+2025-09-02 22:23:57 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for MELI saved to database.
+2025-09-02 22:23:57 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: FTNT (43/85).len(strategies)=133
+2025-09-02 22:23:57 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for FTNT saved to database.
+2025-09-02 22:23:57 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: CTAS (44/85).len(strategies)=133
+2025-09-02 22:23:57 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for CTAS saved to database.
+2025-09-02 22:23:57 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: ODFL (45/85).len(strategies)=133
+2025-09-02 22:23:58 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for ODFL saved to database.
+2025-09-02 22:23:58 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: PAYX (46/85).len(strategies)=133
+2025-09-02 22:23:58 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for PAYX saved to database.
+2025-09-02 22:23:58 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: ROST (47/85).len(strategies)=133
+2025-09-02 22:23:58 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for ROST saved to database.
+2025-09-02 22:23:58 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: IDXX (48/85).len(strategies)=133
+2025-09-02 22:23:59 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for IDXX saved to database.
+2025-09-02 22:23:59 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: BIIB (49/85).len(strategies)=133
+2025-09-02 22:23:59 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for BIIB saved to database.
+2025-09-02 22:23:59 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: FAST (50/85).len(strategies)=133
+2025-09-02 22:24:00 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for FAST saved to database.
+2025-09-02 22:24:00 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: VRSK (51/85).len(strategies)=133
+2025-09-02 22:24:00 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for VRSK saved to database.
+2025-09-02 22:24:00 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: WDAY (52/85).len(strategies)=133
+2025-09-02 22:24:00 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for WDAY saved to database.
+2025-09-02 22:24:00 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: DXCM (53/85).len(strategies)=133
+2025-09-02 22:24:00 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for DXCM saved to database.
+2025-09-02 22:24:00 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: CPRT (54/85).len(strategies)=133
+2025-09-02 22:24:01 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for CPRT saved to database.
+2025-09-02 22:24:01 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: XEL (55/85).len(strategies)=133
+2025-09-02 22:24:01 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for XEL saved to database.
+2025-09-02 22:24:01 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: PCAR (56/85).len(strategies)=133
+2025-09-02 22:24:02 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for PCAR saved to database.
+2025-09-02 22:24:02 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: ALGN (57/85).len(strategies)=133
+2025-09-02 22:24:02 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for ALGN saved to database.
+2025-09-02 22:24:02 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: SIRI (58/85).len(strategies)=133
+2025-09-02 22:24:02 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for SIRI saved to database.
+2025-09-02 22:24:02 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: MRVL (59/85).len(strategies)=133
+2025-09-02 22:24:03 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for MRVL saved to database.
+2025-09-02 22:24:03 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: ZS (60/85).len(strategies)=133
+2025-09-02 22:24:03 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for ZS saved to database.
+2025-09-02 22:24:03 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: LCID (61/85).len(strategies)=133
+2025-09-02 22:24:03 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for LCID saved to database.
+2025-09-02 22:24:03 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: JD (62/85).len(strategies)=133
+2025-09-02 22:24:03 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for JD saved to database.
+2025-09-02 22:24:03 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: PDD (63/85).len(strategies)=133
+2025-09-02 22:24:03 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for PDD saved to database.
+2025-09-02 22:24:03 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: BIDU (64/85).len(strategies)=133
+2025-09-02 22:24:04 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for BIDU saved to database.
+2025-09-02 22:24:04 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: NTES (65/85).len(strategies)=133
+2025-09-02 22:24:04 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for NTES saved to database.
+2025-09-02 22:24:04 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: TCOM (66/85).len(strategies)=133
+2025-09-02 22:24:04 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for TCOM saved to database.
+2025-09-02 22:24:04 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: WBA (67/85).len(strategies)=133
+2025-09-02 22:24:05 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for WBA saved to database.
+2025-09-02 22:24:05 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: EA (68/85).len(strategies)=133
+2025-09-02 22:24:05 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for EA saved to database.
+2025-09-02 22:24:05 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: UBER (69/85).len(strategies)=133
+2025-09-02 22:24:05 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for UBER saved to database.
+2025-09-02 22:24:05 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: LYFT (70/85).len(strategies)=133
+2025-09-02 22:24:05 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for LYFT saved to database.
+2025-09-02 22:24:05 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: DASH (71/85).len(strategies)=133
+2025-09-02 22:24:06 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for DASH saved to database.
+2025-09-02 22:24:06 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: RIVN (72/85).len(strategies)=133
+2025-09-02 22:24:06 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for RIVN saved to database.
+2025-09-02 22:24:06 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: PLTR (73/85).len(strategies)=133
+2025-09-02 22:24:06 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for PLTR saved to database.
+2025-09-02 22:24:06 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: SNOW (74/85).len(strategies)=133
+2025-09-02 22:24:06 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for SNOW saved to database.
+2025-09-02 22:24:06 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: CRWD (75/85).len(strategies)=133
+2025-09-02 22:24:06 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for CRWD saved to database.
+2025-09-02 22:24:06 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: OKTA (76/85).len(strategies)=133
+2025-09-02 22:24:06 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for OKTA saved to database.
+2025-09-02 22:24:06 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: TEAM (77/85).len(strategies)=133
+2025-09-02 22:24:07 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for TEAM saved to database.
+2025-09-02 22:24:07 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: SPOT (78/85).len(strategies)=133
+2025-09-02 22:24:07 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for SPOT saved to database.
+2025-09-02 22:24:07 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: PINS (79/85).len(strategies)=133
+2025-09-02 22:24:07 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for PINS saved to database.
+2025-09-02 22:24:07 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: SNAP (80/85).len(strategies)=133
+2025-09-02 22:24:07 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for SNAP saved to database.
+2025-09-02 22:24:07 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: BYND (81/85).len(strategies)=133
+2025-09-02 22:24:07 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for BYND saved to database.
+2025-09-02 22:24:07 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: PTON (82/85).len(strategies)=133
+2025-09-02 22:24:08 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for PTON saved to database.
+2025-09-02 22:24:08 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: DOCU (83/85).len(strategies)=133
+2025-09-02 22:24:08 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for DOCU saved to database.
+2025-09-02 22:24:08 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: RBLX (84/85).len(strategies)=133
+2025-09-02 22:24:08 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for RBLX saved to database.
+2025-09-02 22:24:08 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Computing decisions: ZM (85/85).len(strategies)=133
+2025-09-02 22:24:08 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Data for ZM saved to database.
+2025-09-02 22:24:08 +0100 - INFO - __main__ - compute_and_store_strategy_decisions - Execution time for main(): 26.69 seconds

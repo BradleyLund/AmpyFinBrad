@@ -146,6 +146,13 @@ def train() -> None:
             logger
         )
 
+        # Log portfolio values to W&B for time-series charts
+        portfolio_values_log = {
+            f"Portfolio Value/{strategy.__name__}": trading_simulator[strategy.__name__]["portfolio_value"]
+            for strategy in strategies
+        }
+        wandb.log(portfolio_values_log, step=int((current_date - start_date).days))
+
         # Log daily results
         logger.info(f"Date: {current_date.strftime('%Y-%m-%d')}")
         logger.info(f"Active count: {active_count}")
@@ -194,9 +201,12 @@ def train() -> None:
         top_portfolio_values_list.append([strategy, value["portfolio_value"]])
         logger.info(f"{strategy}: ${value['portfolio_value']:.2f}")
 
-    # Log to W&B
-    wandb.log({"TRAIN_top_portfolio_values": top_portfolio_values_list})
-    wandb.log({"TRAIN_top_points": top_points})
+    # Log to W&B as tables for charting
+    portfolio_table = wandb.Table(columns=["Strategy", "Portfolio Value"], data=top_portfolio_values_list)
+    wandb.log({"TRAIN_top_portfolio_values": portfolio_table})
+
+    points_table = wandb.Table(columns=["Strategy", "Points"], data=top_points)
+    wandb.log({"TRAIN_top_points": points_table})
 
     logger.info("Top 10 strategies with highest points:")
     for strategy, value in top_points:

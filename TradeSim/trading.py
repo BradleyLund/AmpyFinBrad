@@ -368,7 +368,7 @@ def main():
             Exception: If an unexpected error occurs in the main trading loop.
         """
     logger.info("Trading mode is live.")
-    mongo_client = MongoClient(MONGO_URL, tlsCAFile=ca)
+    mongo_client = MongoClient(MONGO_URL, tlsAllowInvalidCertificates=True)
 
     while True:
         try:

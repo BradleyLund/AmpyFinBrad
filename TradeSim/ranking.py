@@ -381,6 +381,14 @@ def main():
 
     while True:
         mongo_client = MongoClient(MONGO_URL, tlsAllowInvalidCertificates=True)
+        
+        # Get real-time market status and update database
+        from utilities.ranking_trading_utils import market_status as get_market_status
+        real_time_status = get_market_status()
+        market_db = mongo_client.market_data
+        market_collection = market_db.market_status
+        market_collection.update_one({}, {"$set": {"market_status": real_time_status}}, upsert=True)
+        
         market_status = mongo_client.market_data.market_status.find_one({})["market_status"]
         if not market_status:
             logger.error("Market status not found in database.")

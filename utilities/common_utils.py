@@ -29,18 +29,20 @@ import os
 
 def get_ndaq_tickers() -> list[str]:
     """
-        Returns a list of NASDAQ-100 tickers.
-
-        This function scrapes the list of NASDAQ-100 companies from a Wikipedia page
-        and extracts the ticker symbols.
+        Returns a list of current NASDAQ-100 tickers by using the web scraping function.
+        
+        This function imports and uses the get_ndaq_tickers function from dbs.helper_functions
+        which scrapes the current NASDAQ-100 list from Wikipedia.
 
         Returns:
             list: A list of strings, where each string is a NASDAQ-100 ticker symbol.
         """
-    url = "https://en.wikipedia.org/wiki/NASDAQ-100"
-    tables = pd.read_html(url)
-    df = tables[4]  # NASDAQ-100 companies table
-    return df["Ticker"].tolist()
+    # Import the web scraping function from dbs.helper_functions
+    import sys
+    import os
+    sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'dbs'))
+    from helper_functions import get_ndaq_tickers as scrape_ndaq_tickers
+    return scrape_ndaq_tickers()
 
 
 def fetch_price_from_db(start_date: pd.Timestamp, end_date: pd.Timestamp, train_tickers: list[str]) -> pd.DataFrame:

@@ -1,7 +1,7 @@
 import sys
 
 project_name = "AmpyFin - TestRound"
-experiment_name = "FourthTest"
+experiment_name = "ExtendedTraining_Feb2024"
 # general parameters
 """
 time_delta_mode can be multiplicative, additive, or balanced.
@@ -60,8 +60,8 @@ so please understand the time it takes to train.
 
 """
 
-train_period_start = "2024-01-01"
-train_period_end = "2024-01-15"
+train_period_start = "2024-02-01"
+train_period_end = "2024-02-29"
 test_period_start = "2024-01-16"
 test_period_end = "2025-01-30"
 

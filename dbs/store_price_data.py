@@ -14,7 +14,7 @@ from log_config import LOG_CONFIG
 
 from dbs.helper_functions import get_ndaq_tickers, retry_with_backoff
 
-PRICE_DB_PATH = os.path.join('dbs','databases', 'price_data.db')
+PRICE_DB_PATH = os.path.join(os.path.dirname(__file__), 'databases', 'price_data.db')
 
 def download_OHLCV_from_yf(ticker_list, logger):
     logger.info(f"start downloading data {len(ticker_list)=}")

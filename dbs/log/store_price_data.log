@@ -1,0 +1,103 @@
+2025-09-02 22:15:52 +0100 - INFO - __main__ - <module> - getting ndaq tickers from wikipedia...
+2025-09-02 22:15:52 +0100 - INFO - __main__ - download_OHLCV_from_yf - start downloading data len(ticker_list)=88
+2025-09-02 22:15:56 +0100 - INFO - yfinance - _fix_prices_sudden_change - NVDA: 1d: price-repair-split: Corrected: 2002-07-31 -> 2004-08-05
+2025-09-02 22:15:58 +0100 - INFO - yfinance - _fix_prices_sudden_change - IDXX: 1d: price-repair-split: Corrected: 1991-06-21 -> 1997-03-21
+2025-09-02 22:16:01 +0100 - INFO - yfinance - _reconstruct_intervals_batch - CTAS: 1d: price-reconstruct: Too old (1 rows tagged)
+2025-09-02 22:16:03 +0100 - INFO - yfinance - _fix_prices_sudden_change - MSFT: 1d: price-repair-split: Corrected: 1986-03-13 -> 1987-10-16
+2025-09-02 22:16:06 +0100 - INFO - yfinance - _fix_prices_sudden_change - AMD: 1d: price-repair-split: Corrected: 1980-03-17 -> 1992-06-17
+2025-09-02 22:16:07 +0100 - INFO - yfinance - _fix_prices_sudden_change - AAPL: 1d: price-repair-split: Corrected: 1980-12-12 -> 2000-09-28
+2025-09-02 22:16:08 +0100 - INFO - yfinance - _fix_prices_sudden_change - CPRT: 1d: price-repair-split: Corrected:
+2025-09-02 22:16:09 +0100 - ERROR - yfinance - _fetch - HTTP Error 404: 
+2025-09-02 22:16:17 +0100 - INFO - yfinance - _fix_prices_sudden_change - CDNS: 1d: price-repair-split: Corrected:
+2025-09-02 22:16:17 +0100 - INFO - yfinance - _fix_prices_sudden_change - CDNS: 1d: price-repair-split: Corrected:
+2025-09-02 22:16:17 +0100 - INFO - yfinance - _fix_prices_sudden_change - CDNS: 1d: price-repair-split: Corrected:
+2025-09-02 22:16:22 +0100 - INFO - yfinance - _fix_prices_sudden_change - MNST: 1d: price-repair-split: Corrected: 1047x
+2025-09-02 22:16:22 +0100 - INFO - yfinance - _fix_prices_sudden_change - MNST: 1d: price-repair-split: Corrected: 1988-01-08 -> 1990-10-31 1985-12-09 -> 1987-11-16
+2025-09-02 22:16:22 +0100 - INFO - yfinance - _fix_prices_sudden_change - MNST: 1d: price-repair-split: Corrected: 1985-12-09 -> 1988-01-07
+2025-09-02 22:16:22 +0100 - INFO - yfinance - _fix_prices_sudden_change - MNST: 1d: price-repair-split: Corrected: 1985-12-09 -> 1988-01-07
+2025-09-02 22:16:22 +0100 - INFO - yfinance - _fix_prices_sudden_change - MNST: 1d: price-repair-split: Corrected: 1985-12-09 -> 1988-01-07
+2025-09-02 22:16:22 +0100 - INFO - yfinance - _reconstruct_intervals_batch - MNST: 1d: price-reconstruct: Too old (21 rows tagged)
+2025-09-02 22:16:24 +0100 - INFO - yfinance - _fix_bad_div_adjust - ADP: 1d: div-adjust-repair-bad: Removing phantom div(s): ['2001-09-10']
+2025-09-02 22:16:25 +0100 - INFO - yfinance - _fix_bad_div_adjust - WBA: 1d: div-adjust-repair-bad: Removing phantom div(s): ['2002-02-13']
+2025-09-02 22:16:25 +0100 - INFO - yfinance - _reconstruct_intervals_batch - WBA: 1d: price-reconstruct: Too old (8 rows tagged)
+2025-09-02 22:16:26 +0100 - ERROR - yfinance - download - 
+3 Failed downloads:
+2025-09-02 22:16:26 +0100 - ERROR - yfinance - download - ['SQ', 'TWTR', 'ATVI']: YFTzMissingError('possibly delisted; no timezone found')
+2025-09-02 22:16:29 +0100 - INFO - __main__ - store_OHLCV_in_db - Saving 88 tickers to dbs\databases\price_data.db
+2025-09-02 22:16:39 +0100 - INFO - __main__ - <module> - getting ndaq tickers from wikipedia...
+2025-09-02 22:16:39 +0100 - INFO - __main__ - download_OHLCV_from_yf - start downloading data len(ticker_list)=88
+2025-09-02 22:16:45 +0100 - ERROR - yfinance - _fetch - HTTP Error 404: 
+2025-09-02 22:16:50 +0100 - INFO - yfinance - _fix_prices_sudden_change - NVDA: 1d: price-repair-split: Corrected: 2002-07-31 -> 2004-08-05
+2025-09-02 22:16:52 +0100 - INFO - yfinance - _fix_prices_sudden_change - MNST: 1d: price-repair-split: Corrected: 1047x
+2025-09-02 22:16:52 +0100 - INFO - yfinance - _fix_prices_sudden_change - MNST: 1d: price-repair-split: Corrected: 1988-01-08 -> 1990-10-31 1985-12-09 -> 1987-11-16
+2025-09-02 22:16:52 +0100 - INFO - yfinance - _fix_prices_sudden_change - MNST: 1d: price-repair-split: Corrected: 1985-12-09 -> 1988-01-07
+2025-09-02 22:16:52 +0100 - INFO - yfinance - _fix_prices_sudden_change - MNST: 1d: price-repair-split: Corrected: 1985-12-09 -> 1988-01-07
+2025-09-02 22:16:52 +0100 - INFO - yfinance - _fix_prices_sudden_change - MNST: 1d: price-repair-split: Corrected: 1985-12-09 -> 1988-01-07
+2025-09-02 22:16:52 +0100 - INFO - yfinance - _reconstruct_intervals_batch - MNST: 1d: price-reconstruct: Too old (21 rows tagged)
+2025-09-02 22:16:53 +0100 - INFO - yfinance - _fix_prices_sudden_change - CDNS: 1d: price-repair-split: Corrected:
+2025-09-02 22:16:53 +0100 - INFO - yfinance - _fix_prices_sudden_change - CDNS: 1d: price-repair-split: Corrected:
+2025-09-02 22:16:53 +0100 - INFO - yfinance - _fix_prices_sudden_change - CDNS: 1d: price-repair-split: Corrected:
+2025-09-02 22:16:54 +0100 - INFO - yfinance - _fix_prices_sudden_change - AMD: 1d: price-repair-split: Corrected: 1980-03-17 -> 1992-06-17
+2025-09-02 22:16:54 +0100 - INFO - yfinance - _fix_prices_sudden_change - CPRT: 1d: price-repair-split: Corrected:
+2025-09-02 22:16:56 +0100 - INFO - yfinance - _fix_bad_div_adjust - WBA: 1d: div-adjust-repair-bad: Removing phantom div(s): ['2002-02-13']
+2025-09-02 22:16:57 +0100 - INFO - yfinance - _reconstruct_intervals_batch - WBA: 1d: price-reconstruct: Too old (8 rows tagged)
+2025-09-02 22:16:59 +0100 - INFO - yfinance - _fix_prices_sudden_change - AAPL: 1d: price-repair-split: Corrected: 1980-12-12 -> 2000-09-28
+2025-09-02 22:17:03 +0100 - INFO - yfinance - _fix_prices_sudden_change - IDXX: 1d: price-repair-split: Corrected: 1991-06-21 -> 1997-03-21
+2025-09-02 22:17:04 +0100 - INFO - yfinance - _fix_prices_sudden_change - MSFT: 1d: price-repair-split: Corrected: 1986-03-13 -> 1987-10-16
+2025-09-02 22:17:12 +0100 - INFO - yfinance - _fix_bad_div_adjust - ADP: 1d: div-adjust-repair-bad: Removing phantom div(s): ['2001-09-10']
+2025-09-02 22:17:17 +0100 - INFO - yfinance - _reconstruct_intervals_batch - CTAS: 1d: price-reconstruct: Too old (1 rows tagged)
+2025-09-02 22:17:17 +0100 - ERROR - yfinance - download - 
+3 Failed downloads:
+2025-09-02 22:17:17 +0100 - ERROR - yfinance - download - ['TWTR', 'ATVI', 'SQ']: YFTzMissingError('possibly delisted; no timezone found')
+2025-09-02 22:17:19 +0100 - INFO - __main__ - store_OHLCV_in_db - Saving 88 tickers to dbs\databases\price_data.db
+2025-09-02 22:19:53 +0100 - INFO - __main__ - <module> - getting ndaq tickers from wikipedia...
+2025-09-02 22:19:53 +0100 - INFO - __main__ - download_OHLCV_from_yf - start downloading data len(ticker_list)=87
+2025-09-02 22:19:58 +0100 - INFO - yfinance - _fix_prices_sudden_change - CDNS: 1d: price-repair-split: Corrected:
+2025-09-02 22:19:58 +0100 - INFO - yfinance - _fix_prices_sudden_change - CDNS: 1d: price-repair-split: Corrected:
+2025-09-02 22:19:58 +0100 - INFO - yfinance - _fix_prices_sudden_change - CDNS: 1d: price-repair-split: Corrected:
+2025-09-02 22:20:00 +0100 - INFO - yfinance - _fix_prices_sudden_change - NVDA: 1d: price-repair-split: Corrected: 2002-07-31 -> 2004-08-05
+2025-09-02 22:20:02 +0100 - INFO - yfinance - _fix_prices_sudden_change - AAPL: 1d: price-repair-split: Corrected: 1980-12-12 -> 2000-09-28
+2025-09-02 22:20:05 +0100 - ERROR - yfinance - _fetch - HTTP Error 404: 
+2025-09-02 22:20:09 +0100 - INFO - yfinance - _fix_prices_sudden_change - CPRT: 1d: price-repair-split: Corrected:
+2025-09-02 22:20:11 +0100 - INFO - yfinance - _fix_bad_div_adjust - WBA: 1d: div-adjust-repair-bad: Removing phantom div(s): ['2002-02-13']
+2025-09-02 22:20:11 +0100 - INFO - yfinance - _reconstruct_intervals_batch - WBA: 1d: price-reconstruct: Too old (8 rows tagged)
+2025-09-02 22:20:11 +0100 - INFO - yfinance - _fix_prices_sudden_change - IDXX: 1d: price-repair-split: Corrected: 1991-06-21 -> 1997-03-21
+2025-09-02 22:20:15 +0100 - INFO - yfinance - _fix_prices_sudden_change - MNST: 1d: price-repair-split: Corrected: 1047x
+2025-09-02 22:20:15 +0100 - INFO - yfinance - _fix_prices_sudden_change - MNST: 1d: price-repair-split: Corrected: 1988-01-08 -> 1990-10-31 1985-12-09 -> 1987-11-16
+2025-09-02 22:20:15 +0100 - INFO - yfinance - _fix_prices_sudden_change - MNST: 1d: price-repair-split: Corrected: 1985-12-09 -> 1988-01-07
+2025-09-02 22:20:15 +0100 - INFO - yfinance - _fix_prices_sudden_change - MNST: 1d: price-repair-split: Corrected: 1985-12-09 -> 1988-01-07
+2025-09-02 22:20:15 +0100 - INFO - yfinance - _fix_prices_sudden_change - MNST: 1d: price-repair-split: Corrected: 1985-12-09 -> 1988-01-07
+2025-09-02 22:20:15 +0100 - INFO - yfinance - _reconstruct_intervals_batch - MNST: 1d: price-reconstruct: Too old (21 rows tagged)
+2025-09-02 22:20:16 +0100 - INFO - yfinance - _reconstruct_intervals_batch - CTAS: 1d: price-reconstruct: Too old (1 rows tagged)
+2025-09-02 22:20:20 +0100 - INFO - yfinance - _fix_prices_sudden_change - MSFT: 1d: price-repair-split: Corrected: 1986-03-13 -> 1987-10-16
+2025-09-02 22:20:20 +0100 - INFO - yfinance - _fix_prices_sudden_change - AMD: 1d: price-repair-split: Corrected: 1980-03-17 -> 1992-06-17
+2025-09-02 22:20:22 +0100 - INFO - yfinance - _fix_bad_div_adjust - ADP: 1d: div-adjust-repair-bad: Removing phantom div(s): ['2001-09-10']
+2025-09-02 22:20:24 +0100 - ERROR - yfinance - _fetch - HTTP Error 404: 
+2025-09-02 22:20:27 +0100 - ERROR - yfinance - download - 
+2 Failed downloads:
+2025-09-02 22:20:27 +0100 - ERROR - yfinance - download - ['BLOCK', 'X']: YFTzMissingError('possibly delisted; no timezone found')
+2025-09-02 22:20:29 +0100 - INFO - __main__ - store_OHLCV_in_db - Saving 87 tickers to dbs\databases\price_data.db
+2025-09-02 22:22:22 +0100 - INFO - __main__ - <module> - getting ndaq tickers from wikipedia...
+2025-09-02 22:22:22 +0100 - INFO - __main__ - download_OHLCV_from_yf - start downloading data len(ticker_list)=85
+2025-09-02 22:22:24 +0100 - INFO - yfinance - _fix_prices_sudden_change - IDXX: 1d: price-repair-split: Corrected: 1991-06-21 -> 1997-03-21
+2025-09-02 22:22:29 +0100 - INFO - yfinance - _fix_prices_sudden_change - MNST: 1d: price-repair-split: Corrected: 1047x
+2025-09-02 22:22:29 +0100 - INFO - yfinance - _fix_prices_sudden_change - MNST: 1d: price-repair-split: Corrected: 1988-01-08 -> 1990-10-31 1985-12-09 -> 1987-11-16
+2025-09-02 22:22:29 +0100 - INFO - yfinance - _fix_prices_sudden_change - MNST: 1d: price-repair-split: Corrected: 1985-12-09 -> 1988-01-07
+2025-09-02 22:22:29 +0100 - INFO - yfinance - _fix_prices_sudden_change - MNST: 1d: price-repair-split: Corrected: 1985-12-09 -> 1988-01-07
+2025-09-02 22:22:29 +0100 - INFO - yfinance - _fix_prices_sudden_change - MNST: 1d: price-repair-split: Corrected: 1985-12-09 -> 1988-01-07
+2025-09-02 22:22:29 +0100 - INFO - yfinance - _reconstruct_intervals_batch - MNST: 1d: price-reconstruct: Too old (21 rows tagged)
+2025-09-02 22:22:29 +0100 - INFO - yfinance - _fix_prices_sudden_change - CPRT: 1d: price-repair-split: Corrected:
+2025-09-02 22:22:37 +0100 - INFO - yfinance - _fix_prices_sudden_change - CDNS: 1d: price-repair-split: Corrected:
+2025-09-02 22:22:37 +0100 - INFO - yfinance - _fix_prices_sudden_change - CDNS: 1d: price-repair-split: Corrected:
+2025-09-02 22:22:37 +0100 - INFO - yfinance - _fix_prices_sudden_change - CDNS: 1d: price-repair-split: Corrected:
+2025-09-02 22:22:40 +0100 - INFO - yfinance - _reconstruct_intervals_batch - CTAS: 1d: price-reconstruct: Too old (1 rows tagged)
+2025-09-02 22:22:41 +0100 - INFO - yfinance - _fix_bad_div_adjust - WBA: 1d: div-adjust-repair-bad: Removing phantom div(s): ['2002-02-13']
+2025-09-02 22:22:41 +0100 - INFO - yfinance - _reconstruct_intervals_batch - WBA: 1d: price-reconstruct: Too old (8 rows tagged)
+2025-09-02 22:22:43 +0100 - INFO - yfinance - _fix_bad_div_adjust - ADP: 1d: div-adjust-repair-bad: Removing phantom div(s): ['2001-09-10']
+2025-09-02 22:22:43 +0100 - INFO - yfinance - _fix_prices_sudden_change - AMD: 1d: price-repair-split: Corrected: 1980-03-17 -> 1992-06-17
+2025-09-02 22:22:48 +0100 - INFO - yfinance - _fix_prices_sudden_change - AAPL: 1d: price-repair-split: Corrected: 1980-12-12 -> 2000-09-28
+2025-09-02 22:22:51 +0100 - INFO - yfinance - _fix_prices_sudden_change - NVDA: 1d: price-repair-split: Corrected: 2002-07-31 -> 2004-08-05
+2025-09-02 22:22:55 +0100 - INFO - yfinance - _fix_prices_sudden_change - MSFT: 1d: price-repair-split: Corrected: 1986-03-13 -> 1987-10-16
+2025-09-02 22:22:56 +0100 - INFO - __main__ - store_OHLCV_in_db - Saving 85 tickers to C:\Users\bradj\Documents\Web Development\Trading\ampyfin\dbs\databases\price_data.db
+2025-09-02 22:23:08 +0100 - INFO - __main__ - store_OHLCV_in_db - 85 of 85 (100.0 %) tickers saved to C:\Users\bradj\Documents\Web Development\Trading\ampyfin\dbs\databases\price_data.db
+2025-09-02 22:23:08 +0100 - INFO - __main__ - get_price_data_retry_loop - Ticker download threshold met (100.0% >=90%)
